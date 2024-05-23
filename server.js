@@ -66,6 +66,27 @@ app.post('/save-marker', (req, res) => {
     });
 });
 
+
+app.post('/casas.json', (req, res) => {
+    const jsonFilePath = path.join(__dirname, 'casas.json');
+
+    // Check if the file exists
+    if (fs.existsSync(jsonFilePath)) {
+        // Read the file and send its content as response
+        fs.readFile(jsonFilePath, 'utf8', (err, data) => {
+            if (err) {
+                return res.status(500).json({ error: 'Error reading the JSON file' });
+            }
+            res.json(JSON.parse(data));
+        });
+    } else {
+        res.status(404).json({ error: 'JSON file not found' });
+    }
+});
+
+
+
+
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });

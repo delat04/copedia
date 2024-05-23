@@ -142,7 +142,7 @@ async function saveNewMarker() {
 
 onMounted(async () => {
   adjustMapHeight()
-  let response = await fetch('/casas')
+  let response = await fetch('./get-marker')
   let markers = await response.json()
   
   initiateMap(markers)

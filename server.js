@@ -2,11 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
 
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 const app = express();
 const PORT = 3000;
 
@@ -25,7 +21,7 @@ app.use(cors(corsOptions));
 app.use(express.json());
 
 // Define the path to the data file
-const dataFilePath = path.join(__dirname, 'casas.json');
+//const dataFilePath = path.join(__dirname, 'casas.json');
 
 // Endpoint to handle marker saving
 app.post('/save-marker', (req, res) => {
@@ -33,7 +29,7 @@ app.post('/save-marker', (req, res) => {
     console.log('Received marker data:', markerData);
 
     // Read the existing markers data
-    fs.readFile(dataFilePath, 'utf8', (err, data) => {
+    fs.readFile('casas.json', 'utf8', (err, data) => {
         if (err) {
             console.error('Error reading markers data:', err);
             res.status(500).send('Internal Server Error');
@@ -54,7 +50,7 @@ app.post('/save-marker', (req, res) => {
         markersData.features.push(markerData);
 
         // Write the updated data back to the file
-        fs.writeFile(dataFilePath, JSON.stringify(markersData, null, 2), (err) => {
+        fs.writeFile('casas.json', JSON.stringify(markersData, null, 2), (err) => {
             if (err) {
                 console.error('Error saving marker data:', err);
                 res.status(500).send('Internal Server Error');
@@ -66,26 +62,19 @@ app.post('/save-marker', (req, res) => {
     });
 });
 
-
-app.get('/get-marker', (req, res) => {
-    const jsonFilePath = path.join(__dirname, 'casas.json');
-
-    // Check if the file exists
-    if (fs.existsSync(jsonFilePath)) {
-        // Read the file and send its content as response
-        fs.readFile(jsonFilePath, 'utf8', (err, data) => {
-            if (err) {
-                return res.status(500).json({ error: 'Error reading the JSON file' });
-            }
-            res.json(JSON.parse(data));
-        });
-    } else {
-        res.status(404).json({ error: 'JSON file not found' });
-    }
+// Endpoint to get marker data
+app.get('/data', (req, res) => {
+    // Read the JSON file from the server filesystem
+    fs.readFile('casas.json', 'utf8', (err, data) => {
+        if (err) {
+            console.error(err);
+            res.status(500).send('Internal Server Error');
+            return;
+        }
+        // Send the JSON data as a response to the client
+        res.json(JSON.parse(data));
+    });
 });
-
-
-
 
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);

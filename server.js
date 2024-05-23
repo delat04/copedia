@@ -67,7 +67,7 @@ app.post('/save-marker', (req, res) => {
 });
 
 
-app.post('/get-marker', (req, res) => {
+app.get('/get-marker', (req, res) => {
     const jsonFilePath = path.join(__dirname, 'casas.json');
 
     // Check if the file exists

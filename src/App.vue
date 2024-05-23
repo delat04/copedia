@@ -2,6 +2,7 @@
 import { onMounted, ref } from 'vue'
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
+import axios from 'axios';
 import Offcanvas from './components/Offcanvas.vue'
 import ContactModal from './components/ContactModal.vue'
 import TermsModal from './components/TermsModal.vue'
@@ -31,7 +32,6 @@ function initiateMap(markers) {
     maxZoom: 19,
   }).addTo(map.value)
 
-
   let markerLayer = L.geoJSON(markers, {
     pointToLayer: (feature, latlng) => {
       const customIcon = L.icon({
@@ -60,7 +60,6 @@ function initiateMap(markers) {
       })
     }
   }).addTo(map.value)
-
 
   // Event listener for adding a new marker
   if (map.value) {
@@ -140,13 +139,33 @@ async function saveNewMarker() {
   }
 }
 
+
+
+
+
+// Inside your Vue component
 onMounted(async () => {
-  adjustMapHeight()
-  let response = await fetch('/casas.json')
-  let markers = await response.json()
-  
-  initiateMap(markers)
-})
+  adjustMapHeight();
+  try {
+    // Fetch marker data using Axios
+    axios.get('http://localhost:3000/data')
+        .then(response => {
+          // Handle the response data
+          console.log(response.data);
+          // Now you can use the response data in your Vue.js app
+          initiateMap(response.data); // Assuming response.data is the marker data
+        })
+        .catch(error => {
+          // Handle errors
+          console.error('Error fetching marker data:', error);
+        });
+  } catch (error) {
+    console.error('Error fetching marker data:', error);
+  }
+});
+
+
+
 </script>
 
 <template>

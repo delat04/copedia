@@ -1,0 +1,621 @@
+{
+  "type": "FeatureCollection",
+  "name": "random_points",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 0,
+        "price": 94759,
+        "title": "t, consectetur adipiscin",
+        "image": "photo2.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor",
+        "color": "yellow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.16579,
+          36.81897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "price": 50985,
+        "title": "em ipsum dolor sit amet, conse",
+        "image": "photo2.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore e",
+        "color": "yellow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.231019,
+          36.72544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "price": 82221,
+        "title": "m dolor sit amet, cons",
+        "image": "photo3.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad ",
+        "color": "yellow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.243099,
+          36.86012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "price": 86297,
+        "title": "it amet, consectetur ",
+        "image": "photo3.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "color": "blue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.537499,
+          35.825603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "price": 89337,
+        "title": "consectetur adipiscing elit, s",
+        "image": "photo2.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et d",
+        "color": "blue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0399,
+          36.7944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "price": 99200,
+        "title": "dolor sit amet, consecte",
+        "image": "photo2.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ve",
+        "color": "blue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.17303,
+          36.80368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "price": 52154,
+        "title": " do eiusmod tempor incidi",
+        "image": "photo3.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliq",
+        "color": "blue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.21782,
+          36.84967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "price": 97715,
+        "title": " ut labore et dolore m",
+        "image": "photo2.1.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim",
+        "color": "blue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.18362,
+          36.85757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "price": 77554,
+        "title": " labore et dolore magn",
+        "image": "photo3.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ",
+        "color": "red"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7329,
+          36.829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "price": 77767,
+        "title": "dunt ut labore et dolore",
+        "image": "photo1.1.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veni",
+        "color": "red"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.09487,
+          36.73029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "price": 82628,
+        "title": "piscing elit, sed do eiusm",
+        "image": "photo2.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor",
+        "color": "red"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.99003,
+          36.7504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11,
+        "price": 95300,
+        "title": "bore et dolore magna aliqua. U",
+        "image": "photo3.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "color": "yellow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.10023,
+          36.8821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "price": 62054,
+        "title": " elit, sed do eiusmod ",
+        "image": "photo2.1.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+        "color": "blue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.19178,
+          36.85014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13,
+        "price": 76328,
+        "title": "ectetur adipiscing el",
+        "image": "photo1.1.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ma",
+        "color": "blue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.31052,
+          36.799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14,
+        "price": 77156,
+        "title": "ectetur adipiscing el",
+        "image": "photo3.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "color": "red"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.31632,
+          36.897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15,
+        "price": 96850,
+        "title": "mod tempor incididunt ut ",
+        "image": "photo1.1.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut",
+        "color": "blue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.04204,
+          36.86616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16,
+        "price": 63458,
+        "title": "por incididunt ut labore et",
+        "image": "photo3.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et d",
+        "color": "yellow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2933,
+          36.8129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17,
+        "price": 83013,
+        "title": "mod tempor incididunt u",
+        "image": "photo1.1.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut en",
+        "color": "blue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.18714,
+          36.8516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18,
+        "price": 66902,
+        "title": "Lorem ipsum dolor sit amet, ",
+        "image": "photo3.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali",
+        "color": "red"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.07607,
+          36.8116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19,
+        "price": 97410,
+        "title": "re et dolore magna a",
+        "image": "photo1.1.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim v",
+        "color": "red"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.16496,
+          36.85052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20,
+        "price": 59001,
+        "title": "mpor incididunt ut labor",
+        "image": "photo2.1.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
+        "color": "red"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2285,
+          36.8104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 21,
+        "price": 81304,
+        "title": "or incididunt ut labore ",
+        "image": "photo2.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "color": "red"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.24612,
+          36.802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22,
+        "price": 80225,
+        "title": "et, consectetur adipi",
+        "image": "photo1.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mi",
+        "color": "yellow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.17125,
+          36.8612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23,
+        "price": 59603,
+        "title": "e et dolore magna aliqua. Ut e",
+        "image": "photo2.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
+        "color": "red"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.30016,
+          36.8174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 24,
+        "price": 92913,
+        "title": "lor sit amet, consec",
+        "image": "photo1.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna al",
+        "color": "yellow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.17954,
+          36.839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25,
+        "price": 67606,
+        "title": "elit, sed do eiusmod tempor in",
+        "image": "photo3.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim",
+        "color": "yellow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.22956,
+          36.8174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 26,
+        "price": 85455,
+        "title": "do eiusmod tempor incidid",
+        "image": "photo2.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dol",
+        "color": "yellow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.22,
+          36.8211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 27,
+        "price": 90451,
+        "title": "sectetur adipiscing elit,",
+        "image": "photo2.1.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut",
+        "color": "blue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7312,
+          36.8078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 28,
+        "price": 86078,
+        "title": "d tempor incididunt ut la",
+        "image": "photo1.1.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. U",
+        "color": "red"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3075,
+          36.7858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29,
+        "price": 98234,
+        "title": "it amet, consectetur adipi",
+        "image": "photo1.1.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et d",
+        "color": "blue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2693,
+          36.8413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30,
+        "price": 51351,
+        "title": "usmod tempor incididunt",
+        "image": "photo2.1.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ",
+        "color": "blue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1765,
+          36.8318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "renty ",
+        "price": "100",
+        "description": " a home ",
+        "image": "photo2.1.jpg",
+        "color": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.11566162109375,
+          36.85510654769295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "renty ",
+        "price": "1000",
+        "description": "a home",
+        "image": "photo2.1.jpg",
+        "color": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.878082275390627,
+          37.2478212015543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "dqr",
+        "price": "",
+        "description": "",
+        "image": "",
+        "color": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.879490435123445,
+          37.26461620422192
+        ]
+      }
+    }
+  ]
+}

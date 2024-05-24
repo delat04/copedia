@@ -148,7 +148,7 @@ onMounted(async () => {
   adjustMapHeight();
   try {
     // Fetch marker data using Axios
-    axios.get('http://localhost:3000/data')
+    axios.get("http://"+location.hostname+':3000/data')
         .then(response => {
           // Handle the response data
           console.log(response.data);

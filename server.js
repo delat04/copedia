@@ -8,7 +8,7 @@ const PORT = 3000;
 
 // CORS configuration
 const corsOptions = {
-    origin: 'http://localhost:5173', // Allow only this origin
+    origin: 'https://baweba.netlify.app:5173', // Allow only this origin
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true, // Allow credentials (cookies, authorization headers, etc.)
     optionsSuccessStatus: 204 // Some legacy browsers (IE11, various SmartTVs) choke on 204

@@ -143,22 +143,19 @@ async function saveNewMarker() {
 
 
 
-// Inside your Vue component
+
+
 onMounted(async () => {
   adjustMapHeight();
   try {
-    // Fetch marker data using Axios
-    axios.get("https://"+location.hostname+':3000/data')
-        .then(response => {
-          // Handle the response data
-          console.log(response.data);
-          // Now you can use the response data in your Vue.js app
-          initiateMap(response.data); // Assuming response.data is the marker data
-        })
-        .catch(error => {
-          // Handle errors
-          console.error('Error fetching marker data:', error);
-        });
+    // Fetch marker data dynamically based on the environment
+    const apiUrl = process.env.NODE_ENV === 'production' ? '/data' : 'http://localhost:3000/data';
+    const response = await axios.get(apiUrl);
+    
+    // Handle the response data
+    console.log(response.data);
+    markersArray.value = response.data; // Assuming response.data is the marker data
+    initiateMap(markersArray.value);
   } catch (error) {
     console.error('Error fetching marker data:', error);
   }

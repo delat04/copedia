@@ -4,11 +4,11 @@ import fs from 'fs';
 import path from 'path';
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // CORS configuration
 const corsOptions = {
-    origin: 'https://baweba.netlify.app:5173', // Allow only this origin
+    origin: '*', // Allow only this origin
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true, // Allow credentials (cookies, authorization headers, etc.)
     optionsSuccessStatus: 204 // Some legacy browsers (IE11, various SmartTVs) choke on 204
